@@ -44,6 +44,7 @@ const AddProduct = () => {
         <input name="name" value={formData.name} onChange={handleChange} placeholder="Name" className="border p-2 w-full" />
 
         <input name="price" value={formData.price} onChange={handleChange} placeholder="Price" className="border p-2 w-full" />
+        <input name="price" value={formData.price} onChange={handleChange} placeholder="Price" className="border p-2 w-full" />
 
         <input name="image" value={formData.image} onChange={handleChange} placeholder="Image URL" className="border p-2 w-full" />
         <input name="size" value={formData.image} onChange={handleChange} placeholder="Image URL" className="border p-2 w-full" />
